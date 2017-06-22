@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.FilmNoirTV"
+	name="FilmNoirTV"
+	version="1.0.2"
+	provider-name="filmflamman">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Classic Film Noir Addon</summary>
+    <description lang="en">Classic Hollywood Films.</description>
+    <platform>all</platform>
+    <forum>http://forum.kodi.tv/</forum>
+    <source>https://github.com/thepicturesgotsmall/plugin.video.FilmNoirTV</source>
+    <website>http://kodi.tv</website>
+    <email>filmflamman@elitemail.org</email>
+    <license>GPL v2.0</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+        <screenshot>resources/screenshot-02.jpg</screenshot>
+        <screenshot>resources/screenshot-03.jpg</screenshot>
+    </assets>
+    <news>Updated with new artwork resources</news>
+  </extension>
+</addon>
